@@ -39,6 +39,7 @@ I originally wanted to download the native email files, known as **.eml** (email
 &nbsp; An EML Analyzer https://eml-analyzer.herokuapp.com is typically a more comprehensive tool focused on digital forensics, designed to <br> &nbsp; examine a saved email file (an .eml file) to extract and display all its components and metadata for investigation. <br>
 <br>
 <br>
+<br>
 
 ## **📧 Analysis of Cisco_Account_Suspension.html: Threat-Based Social Engineering** <br>
 <br>
@@ -93,6 +94,8 @@ I originally wanted to download the native email files, known as **.eml** (email
 &nbsp;•  This indicates the phishing attempt was crafted by a sophisticated threat group, which significantly enhances the email's perceived legitimacy and effectiveness. <br>
 <br>
 <br>
+<br>
+
 ## **📧 Analysis of Cisco_Webex_Subscription.html: Reward-Based Social Engineering** <br>
 <br>
 
@@ -132,6 +135,7 @@ I originally wanted to download the native email files, known as **.eml** (email
 <br>
 &nbsp;•  The body is well formatted and the text is professionally written and lacks obvious spelling or grammar errors, indicating a more <br> &nbsp;&nbsp; sophisticated attempt. <br>
 &nbsp;•  Interestingly, it includes a false disclaimer ("Beware of phishing scams") in the footer, a tactic used to establish deceptive credibility.
+<br>
 <br>
 <br>
 
