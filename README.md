@@ -27,7 +27,7 @@ I originally wanted to download the native email files, known as **.eml** (email
 ### **Obtaining a Sample Phishing Email:**  <br>
 
 &nbsp;• I have downloaded the html format of the sample phishing mails from online. <br>
-&nbsp;•  For further reference you can check for the "HTML Files" folder. <br>
+&nbsp;•  For further reference you can check for the "HTML Files" section. <br>
 <br>
 
 ### **Tools Recommended:** <br>
