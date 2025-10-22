@@ -91,7 +91,7 @@ The primary objective of this task is to identify and document the characteristi
 ### &nbsp;**Step-6: Verify presence of spelling or grammar errors:** <br>
 
 <p align="left"> &nbsp;•  The text maintains high composition quality and is free of common errors. <br>
-&nbsp;•  This indicates the phishing attempt was crafted by a sophisticated threat group, which significantly enhances the email's perceived legitimacy and effectiveness. <br> <p>
+&nbsp;•  This indicates the phishing attempt was crafted by a sophisticated threat group, which significantly enhances the email's perceived legitimacy and effectiveness. <br> </p>
 <br>
 <br>
 <br>
@@ -126,15 +126,15 @@ The primary objective of this task is to identify and document the characteristi
 
 ### &nbsp;**Step-5: Noting down the mismatched URLs:** <br>
 
-<p align="left"> &nbsp;•  The link text promises a claim, but the destination URL is the generic, suspicious placeholder {{.URL}}. This is a clear indicator that the email is a template used in a malicious campaign. <br> <p>
+<p align="left"> &nbsp;•  The link text promises a claim, but the destination URL is the generic, suspicious placeholder {{.URL}}. This is a clear indicator that the email is a template used in a malicious campaign. <br> </p>
 <br>
 
 ### &nbsp;**Step-6: Verify presence of spelling or grammar errors:** <br>
 
 <br>     <img width="1107" height="763" alt="Screenshot 2025-10-22 203009" src="https://github.com/user-attachments/assets/03416bce-35ad-42dd-8540-f10853e385da" />    <br>
 <br>
-<p align="left"> &nbsp;•  The body is well formatted and the text is professionally written and lacks obvious spelling or grammar errors, indicating a more sophisticated attempt. <br>
-&nbsp;•  Interestingly, it includes a false disclaimer ("Beware of phishing scams") in the footer, a tactic used to establish deceptive credibility. </p> 
+<p align="left"> &nbsp;•  The body is well formatted and the text is professionally written and lacks obvious spelling or grammar errors, indicating a more sophisticated attempt. <br> </p> 
+<p align="left"> &nbsp;•  Interestingly, it includes a false disclaimer ("Beware of phishing scams") in the footer, a tactic used to establish deceptive credibility. </p> 
 <br>
 <br>
 <br>
