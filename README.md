@@ -33,10 +33,10 @@ The primary objective of this task is to identify and document the characteristi
 ### **Tools Recommended:** <br>
 
 •  **MXToolbox Header Analyzer** <br>
-<p align="left"> &nbsp; The MXToolbox Email Header Analyzer https://mxtoolbox.com/EmailHeaders.aspx (or similar online tools) is a utility specifically designed to <br> &nbsp; decode and interpret the full email header. <br> </p>
+<p align="left"> &nbsp; The MXToolbox Email Header Analyzer https://mxtoolbox.com/EmailHeaders.aspx (or similar online tools) is a utility specifically designed to decode and interpret the full email header. <br> </p>
 
 •  **EML Analyzer** <br>
-<p align="left"> &nbsp; An EML Analyzer https://eml-analyzer.herokuapp.com is typically a more comprehensive tool focused on digital forensics, designed to <br> &nbsp; examine a saved email file (an .eml file) to extract and display all its components and metadata for investigation. <br> </p>
+<p align="left"> &nbsp; An EML Analyzer https://eml-analyzer.herokuapp.com is typically a more comprehensive tool focused on digital forensics, designed to examine a saved email file (an .eml file) to extract and display all its components and metadata for investigation. <br> </p>
 <br>
 <br>
 <br>
@@ -77,7 +77,7 @@ The primary objective of this task is to identify and document the characteristi
 <br>  <img width="1642" height="864" alt="Screenshot 2025-10-22 191639" src="https://github.com/user-attachments/assets/c63fde0e-a41d-44f5-bc09-0565b4ca4b81" />  <br>
 <br>
 <p align="left"> &nbsp;•  The header consists of the "Subject:" field which uses "Urgent: Action Required for Your Cisco Account". <br>
-&nbsp;•  The body employs aggressive, fear-based social engineering with phrases like "temporarily suspended," "unauthorized login attempt," and  <br> &nbsp;&nbsp; the critical ultimatum: "permanently disabled for security reasons" if action is not taken within 24 hours. <br> </p>
+&nbsp;•  The body employs aggressive, fear-based social engineering with phrases like "temporarily suspended," "unauthorized login attempt," and the critical ultimatum: "permanently disabled for security reasons" if action is not taken within 24 hours. <br> </p>
 <br>
 
 ### &nbsp;**Step-5: Noting down the mismatched URLs:** <br>
@@ -85,7 +85,7 @@ The primary objective of this task is to identify and document the characteristi
 <br>  <img width="1647" height="866" alt="Screenshot 2025-10-22 193143" src="https://github.com/user-attachments/assets/2f888712-09e0-458d-a420-ac46a36d0def" />  <br>
 <br>
 <p align="left"> &nbsp;•  The display text is simialr ("Verify My Account Now"), but the embedded payload URL is http://webex-cisco-verify.com/login <br>
-&nbsp;•  This is a look-alike domain designed for credential harvesting, and the use of the unsecured HTTP protocol is a significant technical indicator <br> &nbsp;&nbsp; of compromise. <br> </p>
+&nbsp;•  This is a look-alike domain designed for credential harvesting, and the use of the unsecured HTTP protocol is a significant technical indicator of compromise. <br> </p>
 <br>
 
 ### &nbsp;**Step-6: Verify presence of spelling or grammar errors:** <br>
@@ -121,20 +121,20 @@ The primary objective of this task is to identify and document the characteristi
 
 <br>    <img width="1083" height="744" alt="Screenshot 2025-10-22 201819" src="https://github.com/user-attachments/assets/9fc9b69a-7b17-4dd5-b0cc-d163960aa44e" />    <br>
 <br>
-<p align="left"> &nbsp;•  The email uses a language form of urgency based on <strong>Fear of Missing Out (FOMO)</strong> a <strong>high-value lure ("FREE 1-year subscription")</strong> and a <br> &nbsp;&nbsp; <strong>sense of haste ("limited time," "Act fast")</strong> to pressure the user into immediate action. <br> </p>
+<p align="left"> &nbsp;•  The email uses a language form of urgency based on <strong>Fear of Missing Out (FOMO)</strong> a <strong>high-value lure ("FREE 1-year subscription")</strong> and a <strong>sense of haste ("limited time," "Act fast")</strong> to pressure the user into immediate action. <br> </p>
 <br>
 
 ### &nbsp;**Step-5: Noting down the mismatched URLs:** <br>
 
-<p align="left"> &nbsp;•  The link text promises a claim, but the destination URL is the generic, suspicious placeholder {{.URL}}. This is a clear indicator that the email is <br> &nbsp;&nbsp; a template used in a malicious campaign. <br> <p>
+<p align="left"> &nbsp;•  The link text promises a claim, but the destination URL is the generic, suspicious placeholder {{.URL}}. This is a clear indicator that the email is a template used in a malicious campaign. <br> <p>
 <br>
 
 ### &nbsp;**Step-6: Verify presence of spelling or grammar errors:** <br>
 
 <br>     <img width="1107" height="763" alt="Screenshot 2025-10-22 203009" src="https://github.com/user-attachments/assets/03416bce-35ad-42dd-8540-f10853e385da" />    <br>
 <br>
-<p align="left"> &nbsp;•  The body is well formatted and the text is professionally written and lacks obvious spelling or grammar errors, indicating a more <br> &nbsp;&nbsp; sophisticated attempt. <br>
-&nbsp;•  Interestingly, it includes a false disclaimer ("Beware of phishing scams") in the footer, a tactic used to establish deceptive credibility. </p>
+<p align="left"> &nbsp;•  The body is well formatted and the text is professionally written and lacks obvious spelling or grammar errors, indicating a more sophisticated attempt. <br>
+&nbsp;•  Interestingly, it includes a false disclaimer ("Beware of phishing scams") in the footer, a tactic used to establish deceptive credibility. </p> 
 <br>
 <br>
 <br>
