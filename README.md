@@ -77,7 +77,7 @@ The primary objective of this task is to identify and document the characteristi
 <br>  <img width="1642" height="864" alt="Screenshot 2025-10-22 191639" src="https://github.com/user-attachments/assets/c63fde0e-a41d-44f5-bc09-0565b4ca4b81" />  <br>
 <br>
 <p align="left"> &nbsp;•  The header consists of the "Subject:" field which uses "Urgent: Action Required for Your Cisco Account". <br>
-&nbsp;•  The body employs aggressive, fear-based social engineering with phrases like "temporarily suspended",&nbsp;&nbsp;"unauthorized login attempt", and the critical ultimatum: "permanently disabled for security reasons" if action is not taken within 24 hours. <br> </p>
+&nbsp;•  The body employs aggressive, fear-based social engineering with phrases like "temporarily suspended", "unauthorized login attempt", and the critical ultimatum: "permanently disabled for security reasons" if action is not taken within 24 hours. <br> </p>
 <br>
 
 ### &nbsp;**Step-5: Noting down the mismatched URLs:** <br>
