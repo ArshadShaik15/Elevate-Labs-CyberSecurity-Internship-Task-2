@@ -20,7 +20,7 @@ The primary objective of this task is to identify and document the characteristi
 ### **🛠️ Lab Setup:**  <br><br>
 ### **📝 Note:**  <br>
 
-I originally wanted to download the native email files, known as **.eml** (email message) files, because they contain all the technical details, like the full hidden headers. But downloading unverified .eml files is very dangerous. They can carry active, hidden viruses or malicious code (payloads) that could run automatically on my system. This high risk of code execution made the direct download unsafe.
+<p align="left">I originally wanted to download the native email files, known as **.eml** (email message) files, because they contain all the technical details, like the full hidden headers. But downloading unverified .eml files is very dangerous. They can carry active, hidden viruses or malicious code (payloads) that could run automatically on my system. This high risk of code execution made the direct download unsafe. </p>
 <br>
 <br>
 
@@ -33,10 +33,10 @@ I originally wanted to download the native email files, known as **.eml** (email
 ### **Tools Recommended:** <br>
 
 •  **MXToolbox Header Analyzer** <br>
-&nbsp; The MXToolbox Email Header Analyzer https://mxtoolbox.com/EmailHeaders.aspx (or similar online tools) is a utility specifically designed to <br> &nbsp; decode and interpret the full email header. <br>
+<p align="left"> &nbsp; The MXToolbox Email Header Analyzer https://mxtoolbox.com/EmailHeaders.aspx (or similar online tools) is a utility specifically designed to <br> &nbsp; decode and interpret the full email header. <br> </p>
 
 •  **EML Analyzer** <br>
-&nbsp; An EML Analyzer https://eml-analyzer.herokuapp.com is typically a more comprehensive tool focused on digital forensics, designed to <br> &nbsp; examine a saved email file (an .eml file) to extract and display all its components and metadata for investigation. <br>
+<p align="left"> &nbsp; An EML Analyzer https://eml-analyzer.herokuapp.com is typically a more comprehensive tool focused on digital forensics, designed to <br> &nbsp; examine a saved email file (an .eml file) to extract and display all its components and metadata for investigation. <br> </p>
 <br>
 <br>
 <br>
@@ -44,31 +44,31 @@ I originally wanted to download the native email files, known as **.eml** (email
 ## **📧 Analysis of Cisco_Account_Suspension.html: Threat-Based Social Engineering** <br>
 <br>
 
-**Phishing Type:** Account Suspension / Credential Harvest (Fear-Based Attack) <br>
-**Primary Goal:** Force the recipient into entering login credentials under the immediate threat of account deactivation. <br>
+<p align="left"> <strong>Phishing Type:</strong> Account Suspension / Credential Harvest (Fear-Based Attack) <br>
+<strong>Primary Goal:</strong> Force the recipient into entering login credentials under the immediate threat of account deactivation. <br> </p>
 <br>
 
 ### &nbsp;**Step-1: Examining Sender's Email Address For Spoofing:** <br>
 
 <br>  <img width="1650" height="870" alt="Screenshot 2025-10-22 182045" src="https://github.com/user-attachments/assets/c4bd01e7-e843-471a-b78d-cef72602e26f" />  <br>
 <br>
-&nbsp;•  The "From:" field uses a look-alike domain: "Cisco IT-Help Desk" <it-security@ciscoteam.com>. <br>
-&nbsp;•  This is a clear instance of Domain Impersonation, as the official domain (cisco.com) is not used. <br>
+&nbsp;•  The "From:" field uses a look-alike domain: "Cisco IT-Help Desk" <it-security@ciscoteam.com> <br>
+&nbsp;•  This is a clear instance of Domain Impersonation, as the official domain <strong>(cisco.com)</strong> is not used. <br>
 <br>
 
 ### &nbsp;**Step-2: Checking Email Headers For Discrepancies:** <br>
 
 <br>  <img width="1641" height="948" alt="Screenshot 2025-10-22 174013" src="https://github.com/user-attachments/assets/31113b93-359f-49cc-8275-e9aefe9304db" />  <br>
 <br>
-&nbsp;•  Full headers for external analysis are not available from the HTML content. <br>
-&nbsp;•  However, the use of the unofficial domain **(@ciscoteam.com)** in the "From:" header is a major discrepancy. <br>
+<p align="left"> &nbsp;•  Full headers for external analysis are not available from the HTML content. <br>
+&nbsp;•  However, the use of the unofficial domain <strong>(@ciscoteam.com)</strong> in the "From:" header is a major discrepancy. <br> </p>
 <br>
 
 ### &nbsp;**Step-3: Identifying Suspicious Links or Attachments:** <br>
 
 <br>  <img width="1649" height="868" alt="Screenshot 2025-10-22 185000" src="https://github.com/user-attachments/assets/afbf6fb3-2e9f-4b73-879b-2517a9eb1b12" />  <br>
 <br>
-&nbsp;•  It uses a single, prominent call-to-action link, "Verify My Account Now". But there were no attachments included. <br>
+<p align="left"> &nbsp;•  It uses a single, prominent call-to-action link, "Verify My Account Now". But there were no attachments included. <br> </p>
 <br>
 
 ### &nbsp;**Step-4: Look For Urgent Or Threatening :Language In The Email Body:** <br>
@@ -76,22 +76,22 @@ I originally wanted to download the native email files, known as **.eml** (email
 <br>  <img width="1649" height="873" alt="Screenshot 2025-10-22 182639" src="https://github.com/user-attachments/assets/4a07c97f-3b8b-4477-8683-6728fe108c0d" />  <br>
 <br>  <img width="1642" height="864" alt="Screenshot 2025-10-22 191639" src="https://github.com/user-attachments/assets/c63fde0e-a41d-44f5-bc09-0565b4ca4b81" />  <br>
 <br>
-&nbsp;•  The header consists of the "Subject:" field which uses "Urgent: Action Required for Your Cisco Account". <br>
-&nbsp;•  The body employs aggressive, fear-based social engineering with phrases like "temporarily suspended," "unauthorized login attempt," and  <br> &nbsp;&nbsp; the critical ultimatum: "permanently disabled for security reasons" if action is not taken within 24 hours. <br>
+<p align="left"> &nbsp;•  The header consists of the "Subject:" field which uses "Urgent: Action Required for Your Cisco Account". <br>
+&nbsp;•  The body employs aggressive, fear-based social engineering with phrases like "temporarily suspended," "unauthorized login attempt," and  <br> &nbsp;&nbsp; the critical ultimatum: "permanently disabled for security reasons" if action is not taken within 24 hours. <br> </p>
 <br>
 
 ### &nbsp;**Step-5: Noting down the mismatched URLs:** <br>
 
 <br>  <img width="1647" height="866" alt="Screenshot 2025-10-22 193143" src="https://github.com/user-attachments/assets/2f888712-09e0-458d-a420-ac46a36d0def" />  <br>
 <br>
-&nbsp;•  The display text is simialr ("Verify My Account Now"), but the embedded payload URL is http://webex-cisco-verify.com/login <br>
-&nbsp;•  This is a look-alike domain designed for credential harvesting, and the use of the unsecured HTTP protocol is a significant technical indicator <br> &nbsp;&nbsp; of compromise. <br>
+<p align="left"> &nbsp;•  The display text is simialr ("Verify My Account Now"), but the embedded payload URL is http://webex-cisco-verify.com/login <br>
+&nbsp;•  This is a look-alike domain designed for credential harvesting, and the use of the unsecured HTTP protocol is a significant technical indicator <br> &nbsp;&nbsp; of compromise. <br> </p>
 <br>
 
 ### &nbsp;**Step-6: Verify presence of spelling or grammar errors:** <br>
 
-&nbsp;•  The text maintains high composition quality and is free of common errors. <br>
-&nbsp;•  This indicates the phishing attempt was crafted by a sophisticated threat group, which significantly enhances the email's perceived legitimacy and effectiveness. <br>
+<p align="left"> &nbsp;•  The text maintains high composition quality and is free of common errors. <br>
+&nbsp;•  This indicates the phishing attempt was crafted by a sophisticated threat group, which significantly enhances the email's perceived legitimacy and effectiveness. <br> <p>
 <br>
 <br>
 <br>
@@ -103,38 +103,38 @@ I originally wanted to download the native email files, known as **.eml** (email
 
 <br>    <img width="1053" height="777" alt="Screenshot 2025-10-22 200120" src="https://github.com/user-attachments/assets/6590ca77-8e2e-4c18-aaec-62f0aab0190a" />    <br>
 <br>
-&nbsp;•  The provided HTML body indicates the sender is "The Webex Team." This is an act of Brand Impersonation used to establish trust. <br>
-&nbsp;•  Though the actual sender email address is not visible in the HTML content provided. <br>
+<p align="left"> &nbsp;•  The provided HTML body indicates the sender is "The Webex Team." This is an act of Brand Impersonation used to establish trust. <br> 
+&nbsp;•  Though the actual sender email address is not visible in the HTML content provided. <br> </p>
 <br>
 
 ### &nbsp;**Step-2: Checking Email Headers For Discrepancies:** <br>
 
-&nbsp;•  No headers are available in the provided HTML file content, preventing a full header analysis. <br>
+<p align="left"> &nbsp;•  No headers are available in the provided HTML file content, preventing a full header analysis. <br> </p>
 <br>
 
 ### &nbsp;**Step-3: Identifying Suspicious Links or Attachments:** <br>
 
-&nbsp;•  The primary focus is a single, enticing CTA (Call-to-Action) link: "Claim Your Free Year of Webex Pro Now!" No attachments were found. <br>
+<p align="left"> &nbsp;•  The primary focus is a single, enticing CTA (Call-to-Action) link: "Claim Your Free Year of Webex Pro Now!" No attachments were found. <br> </p>
 <br>
 
 ### &nbsp;**Step-4: Look For Urgent Or Threatening :Language In The Email Body:** <br>
 
 <br>    <img width="1083" height="744" alt="Screenshot 2025-10-22 201819" src="https://github.com/user-attachments/assets/9fc9b69a-7b17-4dd5-b0cc-d163960aa44e" />    <br>
 <br>
-&nbsp;•  The email uses a language form of urgency based on **Fear of Missing Out (FOMO)** a **high-value lure ("FREE 1-year subscription")** and a <br> &nbsp;&nbsp; **sense of haste ("limited time," "Act fast")** to pressure the user into immediate action. <br>
+<p align="left"> &nbsp;•  The email uses a language form of urgency based on <strong>Fear of Missing Out (FOMO)</strong> a <strong>high-value lure ("FREE 1-year subscription")</strong> and a <br> &nbsp;&nbsp; <strong>sense of haste ("limited time," "Act fast")</strong> to pressure the user into immediate action. <br> </p>
 <br>
 
 ### &nbsp;**Step-5: Noting down the mismatched URLs:** <br>
 
-&nbsp;•  The link text promises a claim, but the destination URL is the generic, suspicious placeholder {{.URL}}. This is a clear indicator that the email is <br> &nbsp;&nbsp; a template used in a malicious campaign. <br>
+<p align="left"> &nbsp;•  The link text promises a claim, but the destination URL is the generic, suspicious placeholder {{.URL}}. This is a clear indicator that the email is <br> &nbsp;&nbsp; a template used in a malicious campaign. <br> <p>
 <br>
 
 ### &nbsp;**Step-6: Verify presence of spelling or grammar errors:** <br>
 
 <br>     <img width="1107" height="763" alt="Screenshot 2025-10-22 203009" src="https://github.com/user-attachments/assets/03416bce-35ad-42dd-8540-f10853e385da" />    <br>
 <br>
-&nbsp;•  The body is well formatted and the text is professionally written and lacks obvious spelling or grammar errors, indicating a more <br> &nbsp;&nbsp; sophisticated attempt. <br>
-&nbsp;•  Interestingly, it includes a false disclaimer ("Beware of phishing scams") in the footer, a tactic used to establish deceptive credibility.
+<p align="left"> &nbsp;•  The body is well formatted and the text is professionally written and lacks obvious spelling or grammar errors, indicating a more <br> &nbsp;&nbsp; sophisticated attempt. <br>
+&nbsp;•  Interestingly, it includes a false disclaimer ("Beware of phishing scams") in the footer, a tactic used to establish deceptive credibility. </p>
 <br>
 <br>
 <br>
