@@ -2,7 +2,7 @@
 
 <br>
 
-### Task 2: Analyze a Phishing Email Sample
+### Task 2: Analyze A Phishing Email Sample
 <br>
 
 ### **Phishing Threat Analysis:** <br>
@@ -24,7 +24,7 @@ The primary objective of this task is to identify and document the characteristi
 <br>
 <br>
 
-### **Obtaining a Sample Phishing Email:**  <br>
+### **Obtaining A Sample Phishing Email:**  <br>
 
 &nbsp;• I have downloaded the html format of the sample phishing mails from online. <br>
 &nbsp;•  For further reference you can check for the "HTML Files" section. <br>
@@ -41,7 +41,7 @@ The primary objective of this task is to identify and document the characteristi
 <br>
 <br>
 
-## **📧 Analysis of Cisco_Account_Suspension.html: Threat-Based Social Engineering** <br>
+## **📧 Analysis Of Cisco_Account_Suspension.html: Threat-Based Social Engineering** <br>
 <br>
 
 <p align="left"> <strong>Phishing Type:</strong> Account Suspension / Credential Harvest (Fear-Based Attack) <br>
@@ -64,7 +64,7 @@ The primary objective of this task is to identify and document the characteristi
 &nbsp;•  However, the use of the unofficial domain <strong>(@ciscoteam.com)</strong> in the "From:" header is a major discrepancy. <br> </p>
 <br>
 
-### &nbsp;**Step-3: Identifying Suspicious Links or Attachments** <br>
+### &nbsp;**Step-3: Identifying Suspicious Links Or Attachments** <br>
 
 <br>  <img width="1649" height="868" alt="Screenshot 2025-10-22 185000" src="https://github.com/user-attachments/assets/afbf6fb3-2e9f-4b73-879b-2517a9eb1b12" />  <br>
 <br>
@@ -80,7 +80,7 @@ The primary objective of this task is to identify and document the characteristi
 &nbsp;•  The body employs aggressive, fear-based social engineering with phrases like "temporarily suspended", "unauthorized login attempt", and the critical ultimatum: "permanently disabled for security reasons" if action is not taken within 24 hours. <br> </p>
 <br>
 
-### &nbsp;**Step-5: Noting down the mismatched URLs** <br>
+### &nbsp;**Step-5: Noting Down The Mismatched URLs** <br>
 
 <br>  <img width="1647" height="866" alt="Screenshot 2025-10-22 193143" src="https://github.com/user-attachments/assets/2f888712-09e0-458d-a420-ac46a36d0def" />  <br>
 <br>
@@ -88,7 +88,7 @@ The primary objective of this task is to identify and document the characteristi
 &nbsp;•  This is a look-alike domain designed for credential harvesting, and the use of the unsecured HTTP protocol is a significant technical indicator of compromise. <br> </p>
 <br>
 
-### &nbsp;**Step-6: Verify presence of spelling or grammar errors** <br>
+### &nbsp;**Step-6: Verify Presence Of Spelling Or Grammar Errors** <br>
 
 <p align="left"> &nbsp;•  The text maintains high composition quality and is free of common errors. <br>
 &nbsp;•  This indicates the phishing attempt was crafted by a sophisticated threat group, which significantly enhances the email's perceived legitimacy and effectiveness. <br> </p>
@@ -112,7 +112,7 @@ The primary objective of this task is to identify and document the characteristi
 <p align="left"> &nbsp;•  No headers are available in the provided HTML file content, preventing a full header analysis. <br> </p>
 <br>
 
-### &nbsp;**Step-3: Identifying Suspicious Links or Attachments** <br>
+### &nbsp;**Step-3: Identifying Suspicious Links Or Attachments** <br>
 
 <p align="left"> &nbsp;•  The primary focus is a single, enticing CTA (Call-to-Action) link: "Claim Your Free Year of Webex Pro Now!" No attachments were found. <br> </p>
 <br>
@@ -124,12 +124,12 @@ The primary objective of this task is to identify and document the characteristi
 <p align="left"> &nbsp;•  The email uses a language form of urgency based on <strong>Fear of Missing Out (FOMO)</strong> a <strong>high-value lure ("FREE 1-year subscription")</strong> and a <strong>sense of haste ("limited time," "Act fast")</strong> to pressure the user into immediate action. <br> </p>
 <br>
 
-### &nbsp;**Step-5: Noting down the mismatched URLs** <br>
+### &nbsp;**Step-5: Noting Down The Mismatched URLs** <br>
 
 <p align="left"> &nbsp;•  The link text promises a claim, but the destination URL is the generic, suspicious placeholder {{.URL}}. This is a clear indicator that the email is a template used in a malicious campaign. <br> </p>
 <br>
 
-### &nbsp;**Step-6: Verify presence of spelling or grammar errors** <br>
+### &nbsp;**Step-6: Verify Presence Of Spelling Or Grammar Errors** <br>
 
 <br>     <img width="1107" height="763" alt="Screenshot 2025-10-22 203009" src="https://github.com/user-attachments/assets/03416bce-35ad-42dd-8540-f10853e385da" />    <br>
 <br>
