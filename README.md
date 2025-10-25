@@ -48,7 +48,7 @@ The primary objective of this task is to identify and document the characteristi
 <strong>Primary Goal:</strong> Force the recipient into entering login credentials under the immediate threat of account deactivation. <br> </p>
 <br>
 
-### &nbsp;**Step-1: Examining Sender's Email Address For Spoofing:** <br>
+### &nbsp;**Step-1: Examining Sender's Email Address For Spoofing** <br>
 
 <br>  <img width="1650" height="870" alt="Screenshot 2025-10-22 182045" src="https://github.com/user-attachments/assets/c4bd01e7-e843-471a-b78d-cef72602e26f" />  <br>
 <br>
@@ -56,7 +56,7 @@ The primary objective of this task is to identify and document the characteristi
 &nbsp;•  This is a clear instance of Domain Impersonation, as the official domain <strong>(cisco.com)</strong> is not used. <br>
 <br>
 
-### &nbsp;**Step-2: Checking Email Headers For Discrepancies:** <br>
+### &nbsp;**Step-2: Checking Email Headers For Discrepancies** <br>
 
 <br>  <img width="1641" height="948" alt="Screenshot 2025-10-22 174013" src="https://github.com/user-attachments/assets/31113b93-359f-49cc-8275-e9aefe9304db" />  <br>
 <br>
@@ -64,14 +64,14 @@ The primary objective of this task is to identify and document the characteristi
 &nbsp;•  However, the use of the unofficial domain <strong>(@ciscoteam.com)</strong> in the "From:" header is a major discrepancy. <br> </p>
 <br>
 
-### &nbsp;**Step-3: Identifying Suspicious Links or Attachments:** <br>
+### &nbsp;**Step-3: Identifying Suspicious Links or Attachments** <br>
 
 <br>  <img width="1649" height="868" alt="Screenshot 2025-10-22 185000" src="https://github.com/user-attachments/assets/afbf6fb3-2e9f-4b73-879b-2517a9eb1b12" />  <br>
 <br>
 <p align="left"> &nbsp;•  It uses a single, prominent call-to-action link, "Verify My Account Now". But there were no attachments included. <br> </p>
 <br>
 
-### &nbsp;**Step-4: Look For Urgent Or Threatening :Language In The Email Body:** <br>
+### &nbsp;**Step-4: Look For Urgent Or Threatening :Language In The Email Body** <br>
 
 <br>  <img width="1649" height="873" alt="Screenshot 2025-10-22 182639" src="https://github.com/user-attachments/assets/4a07c97f-3b8b-4477-8683-6728fe108c0d" />  <br>
 <br>  <img width="1642" height="864" alt="Screenshot 2025-10-22 191639" src="https://github.com/user-attachments/assets/c63fde0e-a41d-44f5-bc09-0565b4ca4b81" />  <br>
@@ -80,7 +80,7 @@ The primary objective of this task is to identify and document the characteristi
 &nbsp;•  The body employs aggressive, fear-based social engineering with phrases like "temporarily suspended", "unauthorized login attempt", and the critical ultimatum: "permanently disabled for security reasons" if action is not taken within 24 hours. <br> </p>
 <br>
 
-### &nbsp;**Step-5: Noting down the mismatched URLs:** <br>
+### &nbsp;**Step-5: Noting down the mismatched URLs** <br>
 
 <br>  <img width="1647" height="866" alt="Screenshot 2025-10-22 193143" src="https://github.com/user-attachments/assets/2f888712-09e0-458d-a420-ac46a36d0def" />  <br>
 <br>
@@ -88,7 +88,7 @@ The primary objective of this task is to identify and document the characteristi
 &nbsp;•  This is a look-alike domain designed for credential harvesting, and the use of the unsecured HTTP protocol is a significant technical indicator of compromise. <br> </p>
 <br>
 
-### &nbsp;**Step-6: Verify presence of spelling or grammar errors:** <br>
+### &nbsp;**Step-6: Verify presence of spelling or grammar errors** <br>
 
 <p align="left"> &nbsp;•  The text maintains high composition quality and is free of common errors. <br>
 &nbsp;•  This indicates the phishing attempt was crafted by a sophisticated threat group, which significantly enhances the email's perceived legitimacy and effectiveness. <br> </p>
@@ -99,7 +99,7 @@ The primary objective of this task is to identify and document the characteristi
 ## **📧 Analysis of Cisco_Webex_Subscription.html: Reward-Based Social Engineering** <br>
 <br>
 
-### &nbsp;**Step-1: Examining Sender's Email Address For Spoofing:** <br>
+### &nbsp;**Step-1: Examining Sender's Email Address For Spoofing** <br>
 
 <br>    <img width="1053" height="777" alt="Screenshot 2025-10-22 200120" src="https://github.com/user-attachments/assets/6590ca77-8e2e-4c18-aaec-62f0aab0190a" />    <br>
 <br>
@@ -107,29 +107,29 @@ The primary objective of this task is to identify and document the characteristi
 &nbsp;•  Though the actual sender email address is not visible in the HTML content provided. <br> </p>
 <br>
 
-### &nbsp;**Step-2: Checking Email Headers For Discrepancies:** <br>
+### &nbsp;**Step-2: Checking Email Headers For Discrepancies** <br>
 
 <p align="left"> &nbsp;•  No headers are available in the provided HTML file content, preventing a full header analysis. <br> </p>
 <br>
 
-### &nbsp;**Step-3: Identifying Suspicious Links or Attachments:** <br>
+### &nbsp;**Step-3: Identifying Suspicious Links or Attachments** <br>
 
 <p align="left"> &nbsp;•  The primary focus is a single, enticing CTA (Call-to-Action) link: "Claim Your Free Year of Webex Pro Now!" No attachments were found. <br> </p>
 <br>
 
-### &nbsp;**Step-4: Look For Urgent Or Threatening :Language In The Email Body:** <br>
+### &nbsp;**Step-4: Look For Urgent Or Threatening :Language In The Email Body** <br>
 
 <br>    <img width="1083" height="744" alt="Screenshot 2025-10-22 201819" src="https://github.com/user-attachments/assets/9fc9b69a-7b17-4dd5-b0cc-d163960aa44e" />    <br>
 <br>
 <p align="left"> &nbsp;•  The email uses a language form of urgency based on <strong>Fear of Missing Out (FOMO)</strong> a <strong>high-value lure ("FREE 1-year subscription")</strong> and a <strong>sense of haste ("limited time," "Act fast")</strong> to pressure the user into immediate action. <br> </p>
 <br>
 
-### &nbsp;**Step-5: Noting down the mismatched URLs:** <br>
+### &nbsp;**Step-5: Noting down the mismatched URLs** <br>
 
 <p align="left"> &nbsp;•  The link text promises a claim, but the destination URL is the generic, suspicious placeholder {{.URL}}. This is a clear indicator that the email is a template used in a malicious campaign. <br> </p>
 <br>
 
-### &nbsp;**Step-6: Verify presence of spelling or grammar errors:** <br>
+### &nbsp;**Step-6: Verify presence of spelling or grammar errors** <br>
 
 <br>     <img width="1107" height="763" alt="Screenshot 2025-10-22 203009" src="https://github.com/user-attachments/assets/03416bce-35ad-42dd-8540-f10853e385da" />    <br>
 <br>
