@@ -20,7 +20,7 @@ The primary objective of this task is to identify and document the characteristi
 ### **🛠️ Lab Setup:**  <br><br>
 ### **📝 Note:**  <br>
 
-<p align="left">I originally wanted to download the native email files, known as **.eml** (email message) files, because they contain all the technical details, like the full hidden headers. But downloading unverified .eml files is very dangerous. They can carry active, hidden viruses or malicious code (payloads) that could run automatically on my system. This high risk of code execution made the direct download unsafe. </p>
+<p align="left">I originally wanted to download the native email files, known as <strong>.eml</strong> (email message) files, because they contain all the technical details, like the full hidden headers. But downloading unverified .eml files is very dangerous. They can carry active, hidden viruses or malicious code (payloads) that could run automatically on my system. This high risk of code execution made the direct download unsafe. </p>
 <br>
 <br>
 
